@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>웹프로그래밍데모</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .h1-test{
+            color: brown;
+        }
+    </style>
   </head>
   <body>
     <!--메뉴-->
@@ -76,7 +81,20 @@
             <input type="reset">
         </form>
         </div>
+        <h1 style="color: red;">인라인 스타일 시트 테스트 </h1>
+        <h1 class="h1-test">내부 스타일 시트 테스트</h1>  
+        <h1>외부 스타일 시트 테스트</h1>  
         </section>
+
+        <div style="color: yellow; text-align: start; line-height: 3;">
+        <h1>스타일 상속</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, necessitatibus quaerat perferendis fugit reiciendis placeat labore quam. Voluptatem natus accusantium aut laudantium, aperiam nesciunt facilis impedit corrupti neque maxime blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dignissimos impedit eum, quae at perferendis. Ab odit sit quisquam cupiditate consequuntur corrupti dolor tenetur pariatur facilis dolores? Atque, temporibus eum!
+        </p>
+        </div>
+        <h1 style="color: hsla(240, 100%, 50%, 0.3);">컬러 테스트</h1>
+        <h4 class="redcolor" style="color: blueviolet;">CSS 테스트</h4> <!--우선순위로 인한 blueviolet으로 색 변화-->
+        <h1 class="shadow1">CSS</h1>
     </body>
     </html>
     
